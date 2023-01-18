@@ -1,0 +1,93 @@
+
+body {
+    border: solid 0;
+    background-color: rgb(95, 95, 95);
+    text-align: center;
+
+}
+
+header {
+    padding: 25px 0 0px 0;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr, th {
+    border: solid 0;
+    background-color: yellow;
+    border-collapse: collapse;
+    padding: 20px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.login {
+    border: solid 0;
+    width: 50%;
+    background-color: #666666;
+    color: yellow;
+    border-collapse: collapse;
+}
+.login:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.signup:hover {
+    background-color: #666666;
+    color: yellow;
+}
+h1 {
+    text-align: center;
+}
+
+main {
+    background-color: #777777;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0 20px 0;
+    margin-bottom: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input {
+    background-color: #4e4e4e;
+    border: solid 1px white;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 0 10px;
+    color: white;
+}
+
+#first, #last {
+    width: 41%;
+}
+
+#phone, #email, #password {
+    width: 89%;
+}
+
+button {
+    width: 93%;
+    border: solid 1px yellow;
+    background-color: black;
+    border-radius: 5px;
+    margin: 0 10px;
+    padding: 10px;
+    color: yellow;
+}
+button:hover {
+    background-color: yellow;
+    color: black;
+    border: solid 1px black;
+}
+
+
+
