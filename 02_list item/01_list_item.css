@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(137, 140, 150);
+    margin: 20px;
+    text-align: center;
+
+}
+h2{
+    background-color: rgba(177, 243, 181, 0.219);
+    border: solid 1px white;
+    width: 60%;
+    margin: 10px 0 ;
+    padding: 10px;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    color: red;
+}
+
+div{
+    text-align: left;
+   
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+h3{
+
+border: solid 0px;
+background-color: blue;
+width: fit-content;
+color: white;
+margin: 30px;
+padding: 20px;
+}
+
+ol{
+    width: 200px;
+    height: 200px;
+    font-size: larger;
+    font-weight: bold;
+    float: left;
+    
+    
+
+
+
+
+}
