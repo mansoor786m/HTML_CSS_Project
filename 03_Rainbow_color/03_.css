@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+}
+body{
+   
+    text-align: center;
+    border: 0px solid white;
+    background-color: white;
+    width: 100%;
+  
+}
+
+div{
+   
+    background-color: white;
+    margin: 20px 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+h2{
+    border: 0px solid;
+    background: linear-gradient(rgb(216, 195, 195), rgb(202, 132, 132), rgb(107, 107, 52));
+    color: brown;
+    margin: 20px;
+}
+
+.p1{
+    border: 0px solid ;
+    background-color: red;
+    width: auto;
+    height: 15px; 
+    margin: 0 0 ;   
+}
+.p2{
+    border: 0px solid ;
+    background-color: orange;
+    width: auto;
+    height: 15px;    
+}
+
+.p3{
+    border: 0px solid ;
+    background-color: yellow;
+    width: auto;
+    height: 15px;    
+}
+
+.p4{
+    border: 0px solid ;
+    background-color: green;
+    width: auto;
+    height: 15px;    
+}
+
+.p5{
+    border: 0px solid ;
+    background-color: blue;
+    width: auto;
+    height: 15px;    
+}
+
+.p6{
+    border: 0px solid ;
+    background-color: indigo;
+    width: auto;
+    height: 15px;    
+}
+
+.p7{
+    border: 0px solid ;
+    background-color: violet;
+    width: auto;
+    height: 15px;    
+}
+
