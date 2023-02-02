@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey_form.css">
+</head>
+<body>
+    <div class="main_container">
+        <div class="form">
+            <!-- form heading -->
+            <div class="form_heading">
+                <h1>Survey Form:</h1>
+                <hr>
+            </div>
+        
+            <!-- form  -->
+        
+            <!-- name  -->
+            <div class="main_input">
+                <h3 class="input_heading">Customer Name</h3>
+                <div class="input_fields">
+                    <div class="name">
+                        <input class="small_input" type="text" name="first-name" required>
+                        <br>
+                        <div class="help_text">Enter your first name</div>
+                    </div>
+                    <div class="name">
+                        <input class="small_input" type="text" name="last-name" required>
+                        <br>
+                        <div class="help_text">Enter your last name</div>
+                    </div>
+                </div>
+            </div>
+            <!-- address  -->
+            <div class="main_input">
+                <h3 class="input_heading">Address</h3>
+                <div class="address_fields">
+                    <div class="name">
+                        <input class="address_input" type="text" name="first-name" required>
+                        <br>
+                        <div class="help_text">Street Address</div>
+                    </div>
+                    <div class="name">
+                        <input class="address_input" type="text" name="last-name" required>
+                        <br>
+                        <div class="help_text">Street Address line 2</div>
+                    </div>
+                </div>
+
+                <div class="city_fields">
+                    <div class="name">
+                        <input class="city_input" type="text" name="first-name" required>
+                        <br>
+                        <div class="help_text">City</div>
+                    </div>
+                    <div class="name">
+                        <input class="city_input" type="text" name="last-name" required>
+                        <br>
+                        <div class="help_text">State</div>
+                    </div>
+                    <div class="name">
+                        <input class="city_input" type="text" name="last-name" required>
+                        <br>
+                        <div class="help_text">Zip</div>
+                    </div>
+                </div>
+
+                <div class="address_fields">
+                    <div class="name">
+                        <form >
+                            <input class="country_input" list="Country" name="Country" >
+                            <datalist id="Country">
+                              <option value="Pakistan">
+                              <option value="India">
+                              <option value="China">
+                              <option value="Bangla Daish">
+                              <option value="Sirilanka">
+                            </datalist>
+                        </form>
+                        <div class="help_text">Select Country</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="main_input">
+                <h3 class="input_heading">Contact:</h3>
+                <div class="input_fields">
+                    <div class="name">
+                        <input class="small_input" type="tel" name="first-name" required>
+                        <br>
+                        <div class="help_text"> Phone</div>
+                    </div>
+                    <div class="name">
+                        <input class="small_input" type="email" name="last-name" required>
+                        <br>
+                        <div class="help_text"> Email </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main_input">
+                <h3 class="input_heading">Personal Detail</h3>
+                <input class="radio_input" type="radio" name="gender" value="male"> Male <br>
+                <input class="radio_input" type="radio" name="gender" value="female"> Female <br>
+                <input class="radio_input" type="radio" name="gender" value="male"> Other
+            </div>
+
+            <div class="main_input">
+                <h3 class="input_heading">Rating</h3>
+                <div class="rating">
+                    <p class="rating_input">Rating 1:</p>
+                    <input class="rating_input" type="radio" name="gender" value="male"> Male 
+                    <input class="rating_input" type="radio" name="gender" value="female"> Female 
+                    <input class="rating_input" type="radio" name="gender" value="male"> Other
+                </div>
+                <div class="rating">
+                    <p class="rating_input">Rating 1:</p>
+                    <input class="rating_input" type="radio" name="gender" value="male"> Male 
+                    <input class="rating_input" type="radio" name="gender" value="female"> Female 
+                    <input class="rating_input" type="radio" name="gender" value="male"> Other
+                </div>
+                <div class="rating">
+                    <p class="rating_input">Rating 2:</p>
+                    <input class="rating_input" type="radio" name="gender" value="male"> Male 
+                    <input class="rating_input" type="radio" name="gender" value="female"> Female 
+                    <input class="rating_input" type="radio" name="gender" value="male"> Other
+                </div>
+                <div class="rating">
+                    <p class="rating_input">Rating 3:</p>
+                    <input class="rating_input" type="radio" name="gender" value="male"> Male 
+                    <input class="rating_input" type="radio" name="gender" value="female"> Female 
+                    <input class="rating_input" type="radio" name="gender" value="male"> Other
+                </div>
+                <div class="rating">
+                    <p class="rating_input">Rating 4:</p>
+                    <input class="rating_input" type="radio" name="gender" value="male"> Male 
+                    <input class="rating_input" type="radio" name="gender" value="female"> Female 
+                    <input class="rating_input" type="radio" name="gender" value="male"> Other
+                </div>
+                <div class="rating">
+                    <p class="rating_input">Rating 5:</p>
+                    <input class="rating_input" type="radio" name="gender" value="male"> Male 
+                    <input class="rating_input" type="radio" name="gender" value="female"> Female 
+                    <input class="rating_input" type="radio" name="gender" value="male"> Other
+                </div>
+                <div class="rating">
+                    <p class="rating_input">Rating 6:</p>
+                    <input class="rating_input" type="radio" name="gender" value="male"> Male 
+                    <input class="rating_input" type="radio" name="gender" value="female"> Female 
+                    <input class="rating_input" type="radio" name="gender" value="male"> Other
+                </div>
+                <div class="rating">
+                    <p class="rating_input">Rating 7:</p>
+                    <input class="rating_input" type="radio" name="gender" value="male"> Male 
+                    <input class="rating_input" type="radio" name="gender" value="female"> Female 
+                    <input class="rating_input" type="radio" name="gender" value="male"> Other
+                </div>    
+            </div>
+            <div class="button">
+                <button>Submit</button>
+            </div>
+
+
+
+        </div>
+    </div>
+</body>

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+
+}
+
+.main_container {
+    border: solid 1px white;
+    margin: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form {
+    margin: 25px;
+}
+
+.form_heading {
+    text-align: center;
+    font-size: 30px;
+}
+
+.form_heading hr {
+    margin: 20px ;
+}
+
+.main_input {
+    margin-top: 35px;
+}
+
+.input-heading {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.input_fields {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+.small_input {
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.help_text {
+    padding: 5px 0 0 0;
+    font-size: 11px;
+
+}

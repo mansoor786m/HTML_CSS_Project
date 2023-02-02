@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+
+}
+body{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    border: solid 0px ;
+    border-radius: 50px;
+    background: linear-gradient(blue, lightblue);
+    width: auto;
+    height: auto;
+    color: rgb(9, 82, 9);
+    
+}
+
+div{
+   width: 80%;
+ 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+
+    width: 100%;
+    text-align: center;
+    z-index: -1;
+
+}
+
+p{
+    border: solid 0px;
+    width: 80%;
+    height: 30px;
+    background: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+    position: absolute;
+    left: 10%;
+    top: 100px;
+    border-radius: 50%/100px 100px 0 0;
+
+}
