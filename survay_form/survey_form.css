@@ -18,10 +18,15 @@ body {
     margin-right: auto;
 }
 
-.form {
+/* .main_form {
     margin: 25px;
-}
+} */
 
+form{
+    margin: 25px;
+    border: solid 2px red;
+    height: 100%;
+}
 .form_heading {
     text-align: center;
     font-size: 30px;
