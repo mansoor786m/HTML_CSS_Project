@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+background-color: white;
+}
+.main_page{
+    width: 100%;
+    background: linear-gradient(30deg, aqua, rgba(73, 165, 88, 0.473), lightblue);
+    border: solid 1px red;
+}
+
+header{
+    background-color: greenyellow;
+
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(214, 42, 19);
+    border: solid white 4px;
+
+}
+
+.large_data{
+    font-size: 30px;
+    padding: 5px;
+}
+
+nav{
+    float: left;
+    display: block;
+}
+
+.medium_data{
+    font-size: 19px;
+    padding: 4px;
+
+}
+
+.samal_data{
+
+    font-size: 12px;
+    padding: 3px;
+}
+
+.border{
+    border: solid 1px;
+    padding: 5px;
+    margin: 15px;
+}
