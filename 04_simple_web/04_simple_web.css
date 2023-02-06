@@ -14,6 +14,10 @@ background-color: white;
 
 header{
     background-color: greenyellow;
+    display: flex;
+    text-align: center;
+    gap: 200px;
+   
 
 }
 h1{
@@ -28,19 +32,33 @@ h1{
     font-size: 30px;
     padding: 5px;
 }
-
 nav{
-    float: left;
-    display: block;
+   margin-left: 50px;
 }
+
+.nav_ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+   
+}
+
+.ul_item{
+    background-color: blueviolet;
+    border-radius: 10px;
+    border: solid 0px white;
+    margin: 10px;
+    padding: 5px;
+}
+
 
 .medium_data{
-    font-size: 19px;
-    padding: 4px;
+    font-size: 20px;
+    padding: 5px;
 
 }
 
-.samal_data{
+.small_data{
 
     font-size: 12px;
     padding: 3px;
@@ -51,3 +69,42 @@ nav{
     padding: 5px;
     margin: 15px;
 }
+ form{
+    border: solid yellow 2px;
+    background-color: hotpink;
+    width: 50%;
+    padding: 10px;
+ }
+
+ .selection{
+    display: flex;
+    margin-bottom: 25px;
+   
+ }
+ .login{
+    font-size: 25px;
+    background-color: rgb(179, 83, 19);
+    width: 50%;
+    padding: 10px;
+ }
+
+ .signup{
+    font-size: 25px;
+    background-color: rgb(158, 45, 152);
+    width: 50%;
+    padding: 10px;
+
+ }
+
+ .container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .item{
+    width: 40%;
+    font-size: 20px;
+    padding: 5px;
+    margin-right: 10px;
+ }
