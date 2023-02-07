@@ -1,99 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="04_simple_web.css">
+  <head>
+    <link rel="stylesheet" href="04_simple_web.css" />
     <title>Simple Web Page</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="main_page">
-        <!-- Header  -->
-        <header class="large_data">
-            <img src="/contact.png" alt="">
-            <h1>How To Connect </h1>
-            
+      <!-- Header  -->
+      <header>
+        <img src="/contact.png" alt=" Connect icon" />
+        <h1 class="large_data">How To Connect</h1>
+      </header>
+      <!-- navigation menu  -->
+      <nav>
+        <ul class="nav_ul">
+          <li class="ul_item medium_data">Home</li>
+          <li class="ul_item medium_data">main Manu</li>
+          <li class="ul_item medium_data">contact us</li>
+          <li class="ul_item medium_data">About</li>
+        </ul>
+      </nav>
 
-            
-        </header>
-         <!-- navigation menu  -->
-        <nav>
-            <ul class="nav_ul">
-                <li class="ul_item medium_data">Home</li>
-                <li class="ul_item medium_data">main Manu</li>
-                <li class="ul_item medium_data">contact us</li>
-                <li class="ul_item medium_data">About</li>
-            </ul>
-        </nav>
+      <!-- login & signup bar -->
+      <form action="Submit">
+        <div>
+            <h1>If You Join us Then!</h1>
+        </div>
+        <div class="selection">
+          <h2 class="medium_data login">Login</h2>
+          <h2 class="medium_data signup">Signup</h2>
+        </div>
 
-        <!-- login & signup bar -->
-        <form action="Submit">
-            <div class="selection">
-                <h2 class="medium_data login">Login</h2>
-                <h2 class="medium_data signup">Signup</h2>
-            </div>
+        <div class="container">
+          <div class="item">
+            <input  class="item" type="text" name="user" id="" required /> <br />
+            <p class="small_data"> First Name: </p>
+          </div>
+          <div class="item">
+            <input class="item" type="text" name="user" id="" required /><br />
+            <p class="small_data"> Last Name: </p>
+          </div>
+          <div class="item">
+            <input  class="item" type="text" name="user" id="" required /><br />
+            <p class="small_data"> Phone #: </p>
+          </div>
+          <div class="item">
+            <input  class="item" type="text" name="user" id="" required /><br />
+            <p class="small_data"> Area: </p>
+          </div>
+        </div>
+        <div class="container1 small_data">
+          <div class="item">
+            <input type="text" name="user" id="data" required /><br />
+            Email:
+          </div>
+          <div class="item">
+            <input type="text" name="user" id="data" required /><br />
+            Pasword:
+          </div>
+          <div class="item">
+            <input type="text" name="user" id="data" required /><br />
+            Verify Pasword:
+          </div>
+        </div>
+        <div class="margin">
+          <button class="button">Signup</button>
+        </div>
+      </form>
 
-            <div class="container medium_data">
-                <div class="item">
-                    <input type="text" name="user" id=""> <br>
-                    First Name:
-                </div>
-                <div class="item">
-                    <input type="text" name="user" id=""><br>
-                    Last Name:
-                </div>
-                <div class="item">
-                    <input type="text" name="user" id=""><br>
-                    Phone #:
-                </div>
-                <div class="item">
-                    <input type="text" name="user" id=""><br>
-                    Area:
-                </div>
-                <div class="item">
-                    <input type="text" name="user" id=""><br>
-                    Email:
-                </div>
-                <div class="item">
-                    <input type="text" name="user" id=""><br>
-                    Pasword:
-                </div>
-                <div class="item">
-                    <input type="text" name="user" id=""><br>
-                    Verify Pasword:
-                </div>
-            </div>
-            <!-- main part -->
-            <main>
+      <main>
+        <div class="margin">
+            <h1 class="social">If You Join Social Media Then!</h1>
+        </div>
+        <div class="container  ">
+            <h2><a href="https://www.facebook.com/" target="blank"> Facebook! : </a></h2>
+            <a href="https://www.facebook.com/" target="blank"><img class=""src="/facebook.png" alt="facebook" ></a>
+        </div>
+        <div class="container  ">
+            <h2><a href="https://mail.google.com/" target="blank"> Gmail!    :     </a></h2>
+            <a href="https://mail.google.com/" target="blank"><img class=""src="/Gmail.png" alt="Gmail" ></a>
+        </div>
 
-
-
-
-
-            </main>
-
-
-
-
-
-
-
-        </form>
-
-
-
-
-
-
-
-
-
-
-
-       
-
-
-
-
-
+        <div class="container ">
+            <h2><a href="https://web.whatsapp.com/" target="blank"> WhatsApp! : </a></h2>
+            <a href="https://web.whatsapp.com/" target="blank"><img class=""src="/whatsapp.png" alt="Whatsapp" ></a>
+        </div>
+        <div class="container  ">
+            <h2><a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D" target="blank"> Twiter!    :     </a></h2>
+            <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D" target="blank"><img class=""src="/twiter.png" alt="Twitter" ></a>
+        </div>
+      </main>
     </div>
-</body>
+  </body>
 </html>

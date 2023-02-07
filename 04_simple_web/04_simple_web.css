@@ -7,30 +7,39 @@ body{
 background-color: white;
 }
 .main_page{
-    width: 100%;
+
     background: linear-gradient(30deg, aqua, rgba(73, 165, 88, 0.473), lightblue);
-    border: solid 1px red;
+    border: solid 2px red;
+    margin: 5px;
+    padding: 10px;
+    height: 700px;
 }
 
 header{
     background-color: greenyellow;
-    display: flex;
-    text-align: center;
-    gap: 200px;
-   
+    height: 80px;
+    border: solid white 4px; }
+header img{
+    position: absolute;
+    top: 27px;
+    left: 430px;
+    width: fit-content;
+    height: 70px;
+    border-radius: 35px;
 
+    
 }
 h1{
     text-align: center;
     font-family: sans-serif;
     color: rgb(214, 42, 19);
-    border: solid white 4px;
+    width: 100%;
 
 }
 
 .large_data{
-    font-size: 30px;
-    padding: 5px;
+    font-size: 45px;
+    padding: 10px;
 }
 nav{
    margin-left: 50px;
@@ -69,11 +78,13 @@ nav{
     padding: 5px;
     margin: 15px;
 }
+
  form{
     border: solid yellow 2px;
     background-color: hotpink;
-    width: 50%;
+    width: 48%;
     padding: 10px;
+    float: left;
  }
 
  .selection{
@@ -97,14 +108,67 @@ nav{
  }
 
  .container{
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
  }
 
- .item{
-    width: 40%;
+
+
+ .container .item{
+    border-radius: 10px;
     font-size: 20px;
     padding: 5px;
     margin-right: 10px;
  }
+
+ #data{
+    font-size: 20px;
+    padding: 5px;
+    width: 100%;
+    width: 65%;
+    border-radius: 10px;
+ }
+ main{
+    background-color: coral;
+    border: solid 2px;
+    width: 48%;
+    height: auto;
+    float: left;
+}
+
+.margin{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.button{
+    width: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+    color: brown;
+    background-color: aquamarine;  
+}
+
+.social{
+
+    margin: 12px;
+}
+.container h2{
+    font-family: cursive;
+    font-size: 20px;
+    margin: 10px 40px 10px 40px;
+}
+
+ .container img{
+    width: 50px;
+    height: 50px;
+
+ }
+
+
+
+
