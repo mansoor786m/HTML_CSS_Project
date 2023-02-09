@@ -16,9 +16,9 @@ background-color: white;
 }
 
 header{
-    background-color: greenyellow;
+    background-color: rgb(173, 132, 153);
     height: 80px;
-    border: solid white 4px; }
+    border: solid rgb(155, 121, 138) 2px; }
 header img{
     position: absolute;
     top: 27px;
@@ -34,6 +34,7 @@ h1{
     font-family: sans-serif;
     color: rgb(214, 42, 19);
     width: 100%;
+    margin-bottom: 10px;
 
 }
 
@@ -80,9 +81,10 @@ nav{
 }
 
  form{
-    border: solid yellow 2px;
-    background-color: hotpink;
+    border: solid rgb(128, 100, 114) 2px;
+    background-color: rgb(173, 132, 153);
     width: 48%;
+    height: 500px;
     padding: 10px;
     float: left;
  }
@@ -97,6 +99,7 @@ nav{
     background-color: rgb(179, 83, 19);
     width: 50%;
     padding: 10px;
+    text-align: center;
  }
 
  .signup{
@@ -104,6 +107,7 @@ nav{
     background-color: rgb(158, 45, 152);
     width: 50%;
     padding: 10px;
+    text-align: center;
 
  }
 
@@ -132,8 +136,12 @@ nav{
     background-color: coral;
     border: solid 2px;
     width: 48%;
-    height: auto;
+    padding: 10px;
+    height: 500px;
     float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .margin{
@@ -168,7 +176,18 @@ nav{
     height: 50px;
 
  }
+ .footer{
+    clear: left;
+    border: solid 2px rgb(92, 54, 54);
+    height: 45px;
+    background-color: rgb(92, 54, 54);
 
+ }
 
+.footer-main{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
 
 
